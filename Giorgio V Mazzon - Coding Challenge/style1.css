@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: lime;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Contenitore*/
+
+#square{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 1000px;
+    height: 900px;
+    border-radius: 2% 2% 2% 2%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+
+/*Logo e Testo*/
+
+.logo{
+    width: 250px;
+    display: block;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.logo-text{
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/*Barra del Menu*/
+
+nav{
+    background-color: lime;
+    height: 40px;
+    width: 90%;
+    margin: auto;
+}
+
+#menu{
+   padding: 10px;
+   text-align: center;
+}
+
+/*Titolo e Posizione*/
+
+main > div{
+    margin: 5%;
+    color: white;
+    font-size: 20px;
+}
+
+
+.title{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/*Checkbox*/
+
+.ckbox{
+    width: 15px;
+    height: 15px;
+}
+
+/*Livello carica*/
+
+.level{
+    height: 4vh;
+    margin-top: 4px;
+    border-radius: 5px 5px 5px 5px; 
+}
+
+/*1*/
+#orange{
+    background-color: orange;
+    width: 20vw;
+}
+
+/*2*/
+#lime{
+    background-color: lime;
+    width: 40vw;
+}
+
+/*3*/
+#red{
+    background-color: red;
+    width: 10vw;
+}
